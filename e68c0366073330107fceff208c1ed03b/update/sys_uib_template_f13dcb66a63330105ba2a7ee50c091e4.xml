@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,d5d732935301101017caddeeff7b12b3</associated_types>
+        <image display_value="ui-builder-templates-left-and-right-sidebar.svg">b57f0e0877311010d99bbc3f681061c9</image>
+        <label>Portal Centered Column with Sidebars</label>
+        <macroponent display_value="Fixed Width One-Four-One">353dcb66333330101e3fa3a60b4efce4</macroponent>
+        <order>0</order>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-16 18:48:53</sys_created_on>
+        <sys_id>f13dcb66a63330105ba2a7ee50c091e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Centered Column with Sidebars</sys_name>
+        <sys_package display_value="git testing" source="x_622920_git_tes_0">e68c0366073330107fceff208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="git testing">e68c0366073330107fceff208c1ed03b</sys_scope>
+        <sys_update_name>sys_uib_template_f13dcb66a63330105ba2a7ee50c091e4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-16 18:48:53</sys_updated_on>
+    </sys_uib_template>
+</record_update>

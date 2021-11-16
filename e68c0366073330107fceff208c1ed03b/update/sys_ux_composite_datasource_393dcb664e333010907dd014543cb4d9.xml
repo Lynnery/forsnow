@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="incident">active=true^caller_idDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="caller_id" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <encoded_query_script/>
+        <name>My Request - Incident datasource</name>
+        <sort_by>sys_created_on</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-16 18:48:54</sys_created_on>
+        <sys_id>393dcb664e333010907dd014543cb4d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Request - Incident datasource</sys_name>
+        <sys_package display_value="git testing" source="x_622920_git_tes_0">e68c0366073330107fceff208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="git testing">e68c0366073330107fceff208c1ed03b</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_393dcb664e333010907dd014543cb4d9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-16 18:48:54</sys_updated_on>
+        <table>incident</table>
+    </sys_ux_composite_datasource>
+</record_update>

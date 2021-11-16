@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">f13dcb66ee3330104a804b2b4ee561d6</macroponent>
+        <name>handle_facet_click</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event, imports, helpers}) {
+		const props = api.context.props;
+    helpers.navigate.to('search', {
+			searchTerm: props.searchTerm,
+			searchContextConfigId: props.searchContextConfigId
+    },
+		{
+			searchFilters: props.searchFilters,
+			facetFilters: event.payload.selectedFilters,
+			disableSpellCheck: props.disableSpellCheck
+		});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-16 18:48:54</sys_created_on>
+        <sys_id>fd3dcb6688333010910ec90d87b63cd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handle_facet_click</sys_name>
+        <sys_package display_value="git testing" source="x_622920_git_tes_0">e68c0366073330107fceff208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="git testing">e68c0366073330107fceff208c1ed03b</sys_scope>
+        <sys_update_name>sys_ux_client_script_fd3dcb6688333010910ec90d87b63cd7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-16 18:48:54</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

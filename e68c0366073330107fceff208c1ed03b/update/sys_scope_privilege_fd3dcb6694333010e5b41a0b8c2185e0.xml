@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="git testing">e68c0366073330107fceff208c1ed03b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-16 18:48:54</sys_created_on>
+        <sys_id>fd3dcb6694333010e5b41a0b8c2185e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: properties</sys_name>
+        <sys_package display_value="git testing" source="x_622920_git_tes_0">e68c0366073330107fceff208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="git testing">e68c0366073330107fceff208c1ed03b</sys_scope>
+        <sys_update_name>sys_scope_privilege_fd3dcb6694333010e5b41a0b8c2185e0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-16 18:48:54</sys_updated_on>
+        <target_name>Glide API: properties</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

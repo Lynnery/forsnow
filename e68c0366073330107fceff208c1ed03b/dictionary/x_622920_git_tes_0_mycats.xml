@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sc_cat_item" label="mycats" max_length="40" name="x_622920_git_tes_0_mycats" type="collection"/>
+</database>
